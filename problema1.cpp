@@ -39,7 +39,6 @@ int CDTI(matriz &m, int M, int N, int i, int j)
 
 int main()
 {
-    clock_t ini, fin;
     string linea; // creamos un buffer de texto
 
     getline(cin, linea); // leemos la primera linea (cantidad de casos)
