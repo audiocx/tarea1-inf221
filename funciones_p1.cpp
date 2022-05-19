@@ -10,12 +10,13 @@ typedef vector<int> cons;
 cons splitInt(string str, char spl)
 {
     string str1, str2;
-    for (int i = 0; i < str.length(); i++)
+    int length = (int)str.length();
+    for (int i = 0; i < length; i++)
     {
         if (str[i] == spl)
         {
             i++;
-            for (int j = 0; i + j < str.length(); j++)
+            for (int j = 0; i + j < length; j++)
             {
                 str2[j] = str[i + j];
             }
